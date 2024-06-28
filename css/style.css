@@ -25,7 +25,9 @@ button {
   white-space: nowrap;
   overflow: hidden;
 }
+
 /*--------HEADER--------*/
+
 .header {
 }
 
@@ -41,9 +43,11 @@ button {
   text-transform: uppercase;
   color: #2e2f42;
 }
+
 .header-logo-accent {
   color: #4d5ae5;
 }
+
 .header-list {
 }
 
@@ -54,6 +58,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .header-list-items:hover {
   color: #404bbf;
 }
@@ -74,6 +79,10 @@ button {
   color: #434455;
 }
 
+.header-adress-list-items:hover {
+  color: #404bbf;
+}
+
 /*--------ENDHEADER--------*/
 
 /*--------HERO--------*/
@@ -81,6 +90,7 @@ button {
 .Hero {
   background: #2e2f42;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -89,6 +99,7 @@ button {
   text-align: center;
   color: #fff;
 }
+
 .hero-primary-btn {
   font-weight: 500;
   font-size: 16px;
@@ -98,15 +109,22 @@ button {
   background: #4d5ae5;
 }
 
+.hero-primary-btn:hover {
+  background: #404bbf;
+}
+
 /*--------ENDHERO--------*/
 
 /*--------BENEFITS--------*/
 .Benefits {
 }
+
 .Benefits-list {
 }
+
 .Benefits-item {
 }
+
 .Benefits-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -114,6 +132,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .Benefits-item-text {
   font-weight: 400;
   font-size: 16px;
@@ -121,12 +140,14 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /*--------ENDBENEFITS--------*/
 
 /*--------TEAM--------*/
 .team {
   background: #f4f4fd;
 }
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -135,12 +156,16 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-list {
 }
+
 .team-item {
 }
+
 .team-image {
 }
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -149,6 +174,7 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-text {
   font-weight: 400;
   font-size: 16px;
@@ -157,12 +183,14 @@ button {
   text-align: center;
   color: #434455;
 }
+
 /*--------ENDTEAM--------*/
 
 /*--------PORTFOLIO--------*/
 
 .portfolio {
 }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -171,12 +199,16 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .portfolio-list {
 }
+
 .portfolio-item {
 }
+
 .portfolio-image {
 }
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -184,6 +216,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
@@ -199,6 +232,7 @@ button {
 .footer {
   background: #2e2f42;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
