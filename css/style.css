@@ -58,6 +58,10 @@ button {
   color: #404bbf;
 }
 
+.header-list-items:focus {
+  color: #404bbf;
+}
+
 .header-adress {
   font-style: normal;
   color: #434455;
@@ -75,6 +79,10 @@ button {
 }
 
 .header-adress-list-items:hover {
+  color: #404bbf;
+}
+
+.header-adress-list-items:focus {
   color: #404bbf;
 }
 
