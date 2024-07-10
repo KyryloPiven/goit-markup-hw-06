@@ -118,10 +118,7 @@ img {
   border-radius: 2px;
 }
 
-.header-list-items:hover {
-  color: #404bbf;
-}
-
+.header-list-items:hover,
 .header-list-items:focus {
   color: #404bbf;
 }
@@ -162,11 +159,21 @@ img {
 
 .hero {
   background: #2e2f42;
-  background-image: url(/images/4hw-people-office1.jpg);
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/4hw-people-office1.jpg);
+  background-repeat: no-repeat;
   padding-bottom: 188px;
   padding-top: 188px;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
 }
 
@@ -272,7 +279,7 @@ img {
 }
 
 .team-name {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .team-image {
@@ -295,14 +302,32 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
-
-.team-item-icon {
+.team-icon-list {
+  display: flex;
+  gap: 24px;
+}
+.icon-item {
   width: 40px;
   height: 40px;
-  fill: #f4f4fd;
+}
+.icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #4d5ae5;
   border-radius: 50%;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: #31d0aa;
+}
+.soc-icon {
+  fill: #f4f4fd;
 }
 
 /*--------ENDTEAM--------*/
