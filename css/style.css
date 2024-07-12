@@ -321,14 +321,17 @@ img {
   color: #434455;
   margin-bottom: 8px;
 }
+
 .team-icon-list {
   display: flex;
   gap: 24px;
 }
+
 .icon-item {
   width: 40px;
   height: 40px;
 }
+
 .icon-link {
   width: 100%;
   height: 100%;
@@ -343,6 +346,7 @@ img {
 .icon-link:focus {
   background-color: #404bbf;
 }
+
 .soc-icon {
   fill: #f4f4fd;
 }
@@ -382,10 +386,12 @@ img {
 .portfolio-item:hover .portfolio-item-text {
   transform: translateY(0);
 }
+
 .portfolio-item:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+
 .portfolio-item-wrap {
   position: relative;
   overflow: hidden;
