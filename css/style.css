@@ -634,4 +634,25 @@ img {
   outline: transparent;
   resize: none;
 }
+.modal-send-btn {
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+  padding: 16px auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-send-btn:hover {
+  background: #404bbf;
+}
+.modal-send-btn:focus {
+  background: #404bbf;
+}
 /*--------ENDMODAL--------*/
