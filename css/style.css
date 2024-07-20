@@ -699,11 +699,15 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+.modal-field-check {
+  margin-bottom: 24px;
 }
 
-.modal-coment {
-  margin-bottom: 24px;
+.modal-coment,
+.modal-field {
+  margin-bottom: 16px;
 }
 
 .modal-input {
@@ -800,7 +804,7 @@ img {
 .modal-check:checked + label span {
   background-color: #404bbf;
   border: none;
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 .modal-check-icon {
