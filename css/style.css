@@ -699,7 +699,11 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.modal-coment {
+  margin-bottom: 24px;
 }
 
 .modal-input {
@@ -793,7 +797,7 @@ img {
   display: inline-flex;
 }
 
-.modal-check:checked + .modal-check-text span {
+.modal-check:checked + label span {
   background-color: #404bbf;
   border: none;
   fill: #fff;
