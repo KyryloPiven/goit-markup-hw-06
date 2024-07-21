@@ -492,6 +492,7 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
+
 .footer-icon-list {
   display: flex;
   gap: 16px;
@@ -517,10 +518,12 @@ img {
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
+
 .footer-form-container {
   max-width: 453px;
   align-items: baseline;
 }
+
 .footer-form {
   display: flex;
   gap: 24px;
@@ -538,7 +541,6 @@ img {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  margin-right: 24px;
   padding-left: 16px;
   font-size: 12px;
   line-height: 2;
@@ -653,6 +655,7 @@ img {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
 }
+
 .modal-close-btn {
   display: flex;
   width: 24px;
