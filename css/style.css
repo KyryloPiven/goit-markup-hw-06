@@ -480,7 +480,7 @@ img {
 .cont-foot {
   align-items: center;
   justify-content: space-between;
-  padding-right: 80px;
+  margin-right: 80px;
 }
 
 .footer-text {
