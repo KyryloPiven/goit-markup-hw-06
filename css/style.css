@@ -238,14 +238,14 @@ img {
 .benefits-icon {
   /* display: flex; */
   display: none;
-  align-items: center;
+  /* align-items: center;
   justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
   background: #f4f4fd;
-  margin-bottom: 8px;
+  margin-bottom: 8px; */
 }
 
 .benefits-icon-icon {
@@ -291,6 +291,7 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
+    padding: 0 15px;
   }
   .benefits {
     padding-bottom: 120px;
@@ -307,6 +308,14 @@ img {
 
   .benefits-icon {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
   }
 
   .benefits-subtitle {
@@ -318,9 +327,11 @@ img {
 
 /*----------------------TEAM-------------------*/
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background: #f4f4fd;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -336,12 +347,17 @@ img {
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  /* gap: 24px; */
+  gap: 72px 12px;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-item {
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
+  max-width: 264px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
