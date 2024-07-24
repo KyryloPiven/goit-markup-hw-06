@@ -327,8 +327,6 @@ img {
 
 /*----------------------TEAM-------------------*/
 .team {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: #f4f4fd;
@@ -350,6 +348,7 @@ img {
   flex-wrap: wrap;
   /* gap: 24px; */
   gap: 72px 12px;
+
   align-items: center;
   justify-content: center;
 }
@@ -423,9 +422,39 @@ img {
   fill: #f4f4fd;
 }
 
-/*--------ENDTEAM--------*/
+/* -MEDIA- */
 
-/*--------PORTFOLIO--------*/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .team-list {
+    gap: 64p 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  .team-iten {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+}
+
+/*------------------ENDTEAM----------------------*/
+
+/*-----------------PORTFOLIO---------------------*/
 
 .portfolio {
   padding-top: 120px;
