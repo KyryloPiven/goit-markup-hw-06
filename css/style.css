@@ -359,8 +359,10 @@ img {
     ),
     url(../images/4hw-people-office1.jpg);
   background-repeat: no-repeat;
-  padding-bottom: 188px;
-  padding-top: 188px;
+  /* padding-bottom: 188px;
+  padding-top: 188px; */
+  padding-bottom: 72px;
+  padding-top: 72px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -371,14 +373,18 @@ img {
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  /* font-size: 56px; */
+  font-size: 36px;
+  /* line-height: 1.07; */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  max-width: 496px;
+  /* max-width: 496px; */
+  max-width: 216px;
   margin: 0 auto;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
+  margin-bottom: 72px;
 }
 
 .hero-primary-btn {
@@ -402,6 +408,37 @@ img {
 }
 .hero-primary-btn:focus {
   background: #404bbf;
+}
+
+/* -MEDIA- */
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .hero {
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+  .hero {
+    padding-bottom: 188px;
+    padding-top: 188px;
+  }
+  .her0-title {
+    margin-bottom: 48px;
+  }
 }
 
 /*--------ENDHERO--------*/
