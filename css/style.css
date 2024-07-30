@@ -743,6 +743,7 @@ img {
 }
 
 .portfolio-image {
+  width: 100%;
 }
 
 .portfolio-item:hover .portfolio-item-text {
@@ -1354,9 +1355,6 @@ img {
 /* -MEDIA- */
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
   .modal {
     width: 408px;
     min-height: 584px;
