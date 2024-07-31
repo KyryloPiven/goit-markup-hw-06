@@ -872,7 +872,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -893,6 +893,15 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+.footer-subtitle-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding-bottom: 16px;
+  text-align: center;
 }
 
 .footer-icon-list {
@@ -956,6 +965,7 @@ img {
 
   align-items: center;
   margin-bottom: 16px;
+  opacity: 0.3;
 }
 
 .footer-input-label {
@@ -1043,6 +1053,10 @@ img {
     max-width: 264px;
     margin-right: auto;
   }
+  .footer-subtitle-text {
+    text-align: start;
+  }
+
   .footer-logo {
     justify-content: left;
   }
@@ -1076,9 +1090,15 @@ img {
     flex-wrap: nowrap;
     gap: 0;
   }
+  .footer-form-container {
+    align-items: start;
+  }
 
   .footer-info {
     margin-right: 120px;
+  }
+  .footer-subtitle-text {
+    text-align: start;
   }
 
   .footer-logo {
