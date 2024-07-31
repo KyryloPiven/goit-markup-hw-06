@@ -226,7 +226,7 @@ img {
 
   .header-logo {
     padding: 24px 0px;
-    margin-right: 16px;
+    margin-right: 76px;
   }
   .header-adress-list-items {
     padding-top: 24px;
@@ -300,15 +300,11 @@ img {
   line-height: 40px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  /* color: #2e2f42; */
 }
-.menu-list-item.item:first-child {
+/* .menu-list-item.item:first-child {
   color: #404bbf;
-}
-
-.menu-adress-list {
-  padding-bottom: 48px;
-}
+} */
 
 .menu-icon-list {
   display: flex;
@@ -316,27 +312,50 @@ img {
   justify-content: center;
 }
 
-.menu-adress-list-items-first {
+.menu-adress-list {
+  margin-bottom: 48px;
+}
+
+.menu-adress-items:not(:last-child) {
   padding-bottom: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #4d5ae5;
   font-style: normal;
 }
-
-.menu-adress-list-items-second {
+.menu-adress-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #4d5ae5;
+}
+
+.menu-adress-link.current {
   color: #434455;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 
+.menu-list-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-list-link.current {
+  color: #404bbf;
+}
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
@@ -1008,6 +1027,7 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    padding: 0;
   }
 
   .footer {
@@ -1047,12 +1067,12 @@ img {
   .footer {
     padding-bottom: 100px;
     padding-top: 100px;
-    padding-left: 16px;
+    padding-left: 0;
   }
 
   .container-footer {
     display: flex;
-    align-items: baseline;
+    justify-content: center;
     flex-wrap: nowrap;
     gap: 0;
   }
