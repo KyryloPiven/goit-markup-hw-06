@@ -329,7 +329,7 @@ img {
 }
 
 .menu-adress-items:not(:last-child) {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -388,7 +388,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/4hw-people-office1.jpg);
+    url(../images/hero-mob-1x.jpg);
   background-repeat: no-repeat;
   /* padding-bottom: 188px;
   padding-top: 188px; */
@@ -450,7 +450,13 @@ img {
   .hero {
     padding-bottom: 112px;
     padding-top: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tab-1x.jpg);
   }
+
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -466,6 +472,11 @@ img {
   .hero {
     padding-bottom: 188px;
     padding-top: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/4hw-people-office1.jpg);
   }
   .her0-title {
     margin-bottom: 48px;
@@ -738,6 +749,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-item {
@@ -885,7 +898,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -905,7 +918,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
 }
 .footer-subtitle-text {
   font-weight: 500;
@@ -913,7 +925,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -953,11 +965,6 @@ img {
 }
 
 .footer-form {
-  /* display: flex; */
-  gap: 24px;
-}
-
-.footer-input-label {
   /* display: flex; */
   gap: 24px;
 }
